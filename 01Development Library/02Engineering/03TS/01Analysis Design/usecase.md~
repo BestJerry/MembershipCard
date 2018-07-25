@@ -327,7 +327,31 @@
 						origin_x   	0
 						origin_y   	0
 						items      	(list diagram_item_list
-						    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::入盟商家" @3
+						    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::商家平台管理::商家账户管理::商家账户管理" @3
+							location   	(1552, 560)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							label      	(object ItemLabel
+							    Parent_View 	@3
+							    location   	(1552, 698)
+							    anchor_loc 	1
+							    nlines     	2
+							    max_width  	630
+							    justify    	0
+							    label      	"商家账户管理")
+							icon_style 	"Icon"
+							line_color 	3342489
+							fill_color 	13434879
+							quidu      	"5B569B40023C"
+							height     	118)
+						    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::入盟商家" @4
 							ShowCompartmentStereotypes 	TRUE
 							IncludeAttribute 	TRUE
 							IncludeOperation 	TRUE
@@ -342,11 +366,11 @@
 							    color      	0
 							    default_color 	TRUE)
 							label      	(object ItemLabel
-							    Parent_View 	@3
+							    Parent_View 	@4
 							    location   	(992, 912)
 							    anchor_loc 	1
 							    nlines     	2
-							    max_width  	335
+							    max_width  	325
 							    justify    	0
 							    label      	"入盟商家")
 							icon       	"Actor"
@@ -355,32 +379,8 @@
 							quidu      	"353D5816026C"
 							annotation 	8
 							autoResize 	TRUE)
-						    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::商家平台管理::商家账户管理::商家账户管理" @4
-							location   	(1552, 560)
-							font       	(object Font
-							    size       	9
-							    face       	"Arial"
-							    bold       	FALSE
-							    italics    	FALSE
-							    underline  	FALSE
-							    strike     	FALSE
-							    color      	0
-							    default_color 	TRUE)
-							label      	(object ItemLabel
-							    Parent_View 	@4
-							    location   	(1552, 698)
-							    anchor_loc 	1
-							    nlines     	2
-							    max_width  	630
-							    justify    	0
-							    label      	"商家账户管理")
-							icon_style 	"Icon"
-							line_color 	3342489
-							fill_color 	13434879
-							quidu      	"5B569B40023C"
-							height     	118)
 						    (object AssociationViewNew "$UNNAMED$6" @5
-							location   	(1245, 660)
+							location   	(1140, 697)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -396,28 +396,53 @@
 							roleview_list 	(list RoleViews
 							    (object RoleView "$UNNAMED$7" @6
 								Parent_View 	@5
-								location   	(349, -188)
+								location   	(244, -151)
 								stereotype 	TRUE
 								line_color 	3342489
 								quidu      	"5B569B57015B"
 								client     	@5
-								supplier   	@4
+								supplier   	@3
 								vertices   	(list Points
-								    (1245, 660)
-								    (1442, 593))
+								    (1140, 697)
+								    (1231, 667))
 								line_style 	0)
 							    (object RoleView "$UNNAMED$8" @7
 								Parent_View 	@5
-								location   	(349, -188)
+								location   	(244, -151)
 								stereotype 	TRUE
 								line_color 	3342489
 								quidu      	"5B569B57015D"
 								client     	@5
-								supplier   	@3
+								supplier   	@4
 								vertices   	(list Points
-								    (1245, 660)
+								    (1140, 697)
 								    (1049, 728))
-								line_style 	0))))))))
+								line_style 	0)))))))
+				    (object Class_Category "商家配置管理"
+					quid       	"5B56D74C0064"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list)
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "商家登陆管理"
+					quid       	"5B56D75D0175"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list)
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "商家展示信息维护"
+					quid       	"5B56D76E006B"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list)
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "预制会员卡管理"
+					quid       	"5B56D77E02B1"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list)
+					logical_presentations 	(list unit_reference_list))
+				    (object Class_Category "商家会员管理"
+					quid       	"5B56D786018D"
+					exportControl 	"Public"
+					logical_models 	(list unit_reference_list)
+					logical_presentations 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list))
 			    (object Class_Category "会员中心"
 				quid       	"5B56970500DB"
@@ -496,7 +521,31 @@
 					fill_color 	13434879
 					width      	844
 					height     	574)
-				    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::希望入盟的商家" @9
+				    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::商家平台管理::商家加盟管理::商家加盟管理" @9
+					location   	(1840, 864)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@9
+					    location   	(1840, 1002)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	630
+					    justify    	0
+					    label      	"商家加盟管理")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5B56999B020F"
+					height     	118)
+				    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::希望入盟的商家" @10
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -511,11 +560,11 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@9
+					    Parent_View 	@10
 					    location   	(1248, 1040)
 					    anchor_loc 	1
 					    nlines     	2
-					    max_width  	331
+					    max_width  	325
 					    justify    	0
 					    label      	"希望入盟的商家")
 					icon       	"Actor"
@@ -524,30 +573,6 @@
 					quidu      	"5B568D8F019F"
 					annotation 	8
 					autoResize 	TRUE)
-				    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::商家平台管理::商家加盟管理::商家加盟管理" @10
-					location   	(1840, 864)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@10
-					    location   	(1840, 1002)
-					    anchor_loc 	1
-					    nlines     	2
-					    max_width  	630
-					    justify    	0
-					    label      	"商家加盟管理")
-					icon_style 	"Icon"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"5B56999B020F"
-					height     	118)
 				    (object AssociationViewNew "$UNNAMED$3" @11
 					location   	(1517, 870)
 					font       	(object Font
@@ -570,7 +595,7 @@
 						line_color 	3342489
 						quidu      	"5B569B17005D"
 						client     	@11
-						supplier   	@10
+						supplier   	@9
 						vertices   	(list Points
 						    (1517, 870)
 						    (1730, 865))
@@ -582,7 +607,7 @@
 						line_color 	3342489
 						quidu      	"5B569B17005F"
 						client     	@11
-						supplier   	@9
+						supplier   	@10
 						vertices   	(list Points
 						    (1517, 870)
 						    (1305, 876))
