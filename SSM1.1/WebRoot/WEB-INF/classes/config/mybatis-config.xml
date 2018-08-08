@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="com.eweb.model" />
+		<!-- <typeAlias alias="User" type="com.eweb.model.User" /> -->
+		<!-- <typeAlias alias="Admin" type="com.eweb.model.Admin" /> -->
+		<!-- <typeAlias alias="Business" type="com.eweb.model.Business" /> -->
+		<!-- <typeAlias alias="Franchisee" type="com.eweb.model.Franchisee" /> -->
+		<!-- <typeAlias alias="Community_activity" type="com.eweb.model.Community_activity" 
+			/> -->
+		<!-- <typeAlias alias="InformtaionWithBLOBs" type="com.eweb.model.InformtaionWithBLOBs" 
+			/> -->
+		<!-- <typeAlias alias="news" type="com.eweb.model.news" /> -->
+		<!-- <typeAlias alias="Orders" type="com.eweb.model.Orders" /> -->
+		<!-- <typeAlias alias="ParticipateKey" type="com.eweb.model.ParticipateKey" 
+			/> -->
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/eweb/mapper/AdminMapper.xml" />
+		<mapper resource="com/eweb/mapper/BusinessMapper.xml" />
+		<mapper resource="com/eweb/mapper/Community_activityMapper.xml" />
+		<mapper resource="com/eweb/mapper/FranchiseeMapper.xml" />
+		<mapper resource="com/eweb/mapper/InformtaionMapper.xml" />
+		<mapper resource="com/eweb/mapper/newsMapper.xml" />
+		<mapper resource="com/eweb/mapper/OrdersMapper.xml" />
+		<mapper resource="com/eweb/mapper/ParticipateMapper.xml" />
+		<mapper resource="com/eweb/mapper/UserMapper.xml" />
+	</mappers>
+</configuration>
